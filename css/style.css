@@ -147,3 +147,52 @@ footer {
 .carousel-btn.next {
     right: 1rem;
 }
+
+/* == news == */
+#news h2 {
+    text-align:center;
+    padding-top: 2rem;
+}
+
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem 2rem;
+}
+
+.news-item {
+    background-color: rgba(20, 20, 35, 0.5);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 320;
+    height: auto;
+    flex: 1 1 320px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.news-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.news-info {
+    padding: 1rem;
+}
+
+.news-info h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.news-info p {
+    font-size: 0.95rem;
+    color: #dcdcdc;
+}
